@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TemplateOverview /> renders initial 1`] = `
+<div
+  className="container"
+>
+  <h2>
+    Template Overview
+  </h2>
+  <hr />
+  <table
+    className="table table-hover"
+  >
+    <thead>
+      <tr>
+        <th>
+          Template ID
+        </th>
+        <th>
+          Name
+        </th>
+        <th>
+          Version
+        </th>
+        <th>
+          Valid From
+        </th>
+        <th>
+          Valid To
+        </th>
+        <th>
+          Template Details
+        </th>
+        <th>
+          Template Delete
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <OverviewRow
+        key="487c5b70-9516-11ea-bbfa-ed3b490e43f0"
+        template={
+          Object {
+            "conditions": null,
+            "name": "basic_user",
+            "optionalDocuments": Object {
+              "assetType": Object {
+                "conditions": Object {
+                  "topLevelDomain": ".edu",
+                },
+                "values": Object {
+                  "emailAddress": true,
+                },
+              },
+            },
+            "partnerId": "59c25c00-78cd-11ea-ac9b-bf680aaa6d4b",
+            "requiredDocuments": Object {
+              "assetType": Object {
+                "conditions": Object {
+                  "topLevelDomain": ".edu",
+                },
+                "values": Object {
+                  "emailAddress": true,
+                },
+              },
+            },
+            "templateId": "487c5b70-9516-11ea-bbfa-ed3b490e43f0",
+            "type": "basic",
+            "validFrom": "04-05-2020",
+            "validTo": "21-05-2020",
+            "version": 2,
+          }
+        }
+      />
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`<TemplateOverview /> return the default array when there is no data to map through 1`] = `
+<div
+  className="container"
+>
+  <h2>
+    Template Overview
+  </h2>
+  <hr />
+  <div
+    className="text-center"
+  >
+     ohh!!! no template available !!
+  </div>
+</div>
+`;

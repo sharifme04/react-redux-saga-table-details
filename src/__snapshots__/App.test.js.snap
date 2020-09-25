@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot data renders 1`] = `
+<div
+  className="container  mt-2"
+>
+  <div
+    className="container"
+  >
+    <h2>
+      Template Overview
+    </h2>
+    <hr />
+    <div
+      className="text-center"
+    >
+       ohh!!! no template available !!
+    </div>
+  </div>
+</div>
+`;
+
+exports[`snapshot renders 1`] = `
+<div
+  className="container  mt-2"
+>
+  <div
+    className="container"
+  >
+    <h2>
+      Template Overview
+    </h2>
+    <hr />
+    <div
+      className="text-center"
+    >
+       ohh!!! no template available !!
+    </div>
+  </div>
+</div>
+`;

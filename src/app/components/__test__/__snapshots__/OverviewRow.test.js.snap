@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<OverviewRow /> renders initial 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <OverviewRow
+    templates={
+      Object {
+        "conditions": null,
+        "name": "basic_user",
+        "optionalDocuments": Object {
+          "assetType": Object {
+            "conditions": Object {
+              "topLevelDomain": ".edu",
+            },
+            "values": Object {
+              "emailAddress": true,
+            },
+          },
+        },
+        "partnerId": "59c25c00-78cd-11ea-ac9b-bf680aaa6d4b",
+        "requiredDocuments": Object {
+          "assetType": Object {
+            "conditions": Object {
+              "topLevelDomain": ".edu",
+            },
+            "values": Object {
+              "emailAddress": true,
+            },
+          },
+        },
+        "templateId": "487c5b70-9516-11ea-bbfa-ed3b490e43f0",
+        "type": "basic",
+        "validFrom": "04-05-2020",
+        "validTo": "21-05-2020",
+        "version": 2,
+      }
+    }
+  />
+</ContextProvider>
+`;
+
+exports[`<OverviewRow /> return the default array when there is no data to map through 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <OverviewRow />
+</ContextProvider>
+`;

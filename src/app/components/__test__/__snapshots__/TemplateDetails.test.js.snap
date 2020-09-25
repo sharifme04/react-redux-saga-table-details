@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TemplateDetails /> renders 1`] = `
+<div
+  className="container"
+>
+  <h2>
+    Template Details
+  </h2>
+  <hr />
+  <div
+    className="card text-center"
+  >
+    <div
+      className="card-header"
+    >
+      Template
+    </div>
+    <div
+      className="card-body"
+    >
+      <h5
+        className="card-title"
+      >
+        ID: 
+      </h5>
+      <h6
+        className="card-title"
+      >
+        Name: 
+      </h6>
+      <h6
+        className="card-title"
+      >
+        Partner ID: 
+      </h6>
+      <p
+        className="card-text"
+      >
+        <b>
+          optional Documents (Top Level Domain) : 
+        </b>
+      </p>
+      <p
+        className="card-text"
+      >
+        <b>
+          optional Documents (Email Address) : 
+        </b>
+        Not available
+      </p>
+      <p
+        className="card-text"
+      >
+        <b>
+          Required Documents (Top Level Domain) : 
+        </b>
+      </p>
+      <p
+        className="card-text"
+      >
+        <b>
+          Required Documents (Email Address) : 
+        </b>
+        Not Required
+      </p>
+      <p>
+        <b>
+          Type:
+        </b>
+         
+      </p>
+      <p>
+        <b>
+          Valid From:
+        </b>
+         
+      </p>
+      <p>
+        <b>
+          Valid To:
+        </b>
+         
+      </p>
+      <button
+        className="btn btn-secondary"
+        onClick={[Function]}
+      >
+        Go Back
+      </button>
+    </div>
+    <div
+      className="card-footer text-muted"
+    >
+      Version: 
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<TemplateDetails /> return the default array when there is no data to map through 1`] = `
+<div
+  className="container"
+>
+  <h2>
+    Template Details
+  </h2>
+  <hr />
+  <div
+    className="card text-center"
+  >
+    <div
+      className="card-header"
+    >
+      Template
+    </div>
+    <div
+      className="card-body"
+    >
+      <h5
+        className="card-title"
+      >
+        ID: 
+      </h5>
+      <h6
+        className="card-title"
+      >
+        Name: 
+      </h6>
+      <h6
+        className="card-title"
+      >
+        Partner ID: 
+      </h6>
+      <p
+        className="card-text"
+      >
+        <b>
+          optional Documents (Top Level Domain) : 
+        </b>
+      </p>
+      <p
+        className="card-text"
+      >
+        <b>
+          optional Documents (Email Address) : 
+        </b>
+        Not available
+      </p>
+      <p
+        className="card-text"
+      >
+        <b>
+          Required Documents (Top Level Domain) : 
+        </b>
+      </p>
+      <p
+        className="card-text"
+      >
+        <b>
+          Required Documents (Email Address) : 
+        </b>
+        Not Required
+      </p>
+      <p>
+        <b>
+          Type:
+        </b>
+         
+      </p>
+      <p>
+        <b>
+          Valid From:
+        </b>
+         
+      </p>
+      <p>
+        <b>
+          Valid To:
+        </b>
+         
+      </p>
+      <button
+        className="btn btn-secondary"
+        onClick={[Function]}
+      >
+        Go Back
+      </button>
+    </div>
+    <div
+      className="card-footer text-muted"
+    >
+      Version: 
+    </div>
+  </div>
+</div>
+`;
